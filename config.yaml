@@ -1,0 +1,94 @@
+pipeline:
+  min_news_count: 10
+  max_news_count: 20
+  collect_batch_size: 10
+  normalize_batch_size: 10
+  extract_batch_size: 3
+  cluster_batch_size: 20
+  insight_batch_size: 5
+  report_batch_size: 1
+  max_age_days: 7
+  rss_fetch_timeout: 30
+  dedup_threshold: 0.85
+
+validation:
+  min_content_length: 50
+  max_content_length: 50000
+  strict: false
+
+naming:
+  raw: raw_news_{date}.json
+  normalized: normalized_news_{date}.json
+  structured: structured_news_{date}.json
+  clusters: clusters_{date}.json
+  insights: daily_insight_{date}.json
+  report: daily_report_{date}.md
+  visualization: visualization_{date}.json
+
+report:
+  title: Daily AI Insight Report
+  language: zh-CN
+
+sources:
+  chinese:
+    - name: 机器之心
+      url: https://www.jiqizhixin.com/rss
+      language: zh
+    - name: 量子位
+      url: https://www.qbitai.com/feed
+      language: zh
+    - name: 36氪
+      url: https://36kr.com/feed?cid=56
+      language: zh
+    - name: 虎嗅
+      url: https://www.huxiu.com/rss/0.xml
+      language: zh
+  english:
+    - name: TechCrunch AI
+      url: https://techcrunch.com/category/artificial-intelligence/feed/
+      language: en
+    - name: The Verge AI
+      url: https://www.theverge.com/ai-artificial-intelligence/rss/index.xml
+      language: en
+    - name: VentureBeat AI
+      url: https://venturebeat.com/category/ai/feed/
+      language: en
+    - name: Ars Technica AI
+      url: https://feeds.arstechnica.com/arstechnica/ai
+      language: en
+
+keywords:
+  zh:
+    - 人工智能
+    - 大模型
+    - 机器学习
+    - 深度学习
+    - 生成式AI
+    - 大语言模型
+    - 智能体
+    - 多模态
+    - 具身智能
+    - 自动驾驶
+    - 人形机器人
+    - GPT
+    - Claude
+    - Gemini
+    - AI芯片
+    - AI制药
+  en:
+    - artificial intelligence
+    - large language model
+    - llm
+    - machine learning
+    - deep learning
+    - generative ai
+    - foundation model
+    - ai agent
+    - multimodal
+    - gpt
+    - claude
+    - gemini
+    - autonomous driving
+    - humanoid robot
+    - ai chip
+    - ai drug discovery

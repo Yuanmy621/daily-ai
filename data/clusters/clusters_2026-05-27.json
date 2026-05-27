@@ -1,0 +1,41 @@
+{
+  "date": "2026-05-27",
+  "generated_at": "2026-05-27T13:18:51.605918+00:00",
+  "clusters": [
+    {
+      "cluster_id": "cluster_2026-05-27_01",
+      "topic": "foundation model",
+      "headline": "Sample AI hotspot cluster",
+      "news_ids": [
+        "news_2026-05-27_001",
+        "news_2026-05-27_002",
+        "news_2026-05-27_003",
+        "news_2026-05-27_004",
+        "news_2026-05-27_005",
+        "news_2026-05-27_006",
+        "news_2026-05-27_007",
+        "news_2026-05-27_008",
+        "news_2026-05-27_009",
+        "news_2026-05-27_010",
+        "news_2026-05-27_011",
+        "news_2026-05-27_012",
+        "news_2026-05-27_013",
+        "news_2026-05-27_014",
+        "news_2026-05-27_015",
+        "news_2026-05-27_016",
+        "news_2026-05-27_017",
+        "news_2026-05-27_018",
+        "news_2026-05-27_019",
+        "news_2026-05-27_020"
+      ],
+      "entities": [
+        "Sample AI Company"
+      ],
+      "heat_score": 5.0,
+      "representative_points": [
+        "sample point 1",
+        "sample point 2"
+      ]
+    }
+  ]
+}

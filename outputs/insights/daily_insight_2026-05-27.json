@@ -1,0 +1,28 @@
+{
+  "date": "2026-05-27",
+  "sample_size": 20,
+  "top_events": [
+    {
+      "cluster_id": "cluster_2026-05-27_01",
+      "headline": "Sample AI hotspot cluster",
+      "heat_score": 5.0
+    }
+  ],
+  "trend_insights": {
+    "technology": [
+      "sample technology trend"
+    ],
+    "application": [
+      "sample application trend"
+    ],
+    "policy": [],
+    "capital": []
+  },
+  "risk_alerts": [
+    "sample risk alert"
+  ],
+  "opportunity_alerts": [
+    "sample opportunity alert"
+  ],
+  "generated_at": "2026-05-27T13:18:51.607111+00:00"
+}
