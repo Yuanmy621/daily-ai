@@ -1,0 +1,165 @@
+{
+  "date": "2026-05-23",
+  "generated_at": "2026-05-28T13:32:45.305449+00:00",
+  "clusters": [
+    {
+      "cluster_id": "cluster_2026-05-23_01",
+      "topic": "foundation model",
+      "headline": "OpenAI发布GPT-5：多模态推理能力大幅提升",
+      "news_ids": [
+        "news_2026-05-23_001",
+        "news_2026-05-23_011",
+        "news_2026-05-23_005",
+        "news_2026-05-23_006",
+        "news_2026-05-23_010",
+        "news_2026-05-23_015",
+        "news_2026-05-23_017"
+      ],
+      "entities": [
+        "OpenAI",
+        "DeepSeek",
+        "Meta",
+        "深度求索",
+        "苹果"
+      ],
+      "heat_score": 10.0,
+      "representative_points": [
+        "OpenAI 于今日发布 GPT-5，新模型在多模态理解、复杂推理和代码生成方面取得显著突破，并支持更长上下文窗口。",
+        "OpenAI has launched GPT-5 with stronger multimodal reasoning, a larger context window, and enterprise-ready AI agent capabilities for developers.",
+        "深度求索发布新一代大模型，在数学推理和代码生成方面表现突出，同时显著降低推理成本，进一步加剧模型价格竞争。",
+        "据报道，苹果将在 WWDC 上发布深度整合端侧大模型的新 Siri，支持多轮对话与跨应用任务处理，主打隐私保护。"
+      ]
+    },
+    {
+      "cluster_id": "cluster_2026-05-23_02",
+      "topic": "ai policy",
+      "headline": "欧盟AI法案正式生效，企业面临合规新挑战",
+      "news_ids": [
+        "news_2026-05-23_003",
+        "news_2026-05-23_013",
+        "news_2026-05-23_019"
+      ],
+      "entities": [
+        "ai",
+        "act",
+        "firms"
+      ],
+      "heat_score": 9.3,
+      "representative_points": [
+        "欧盟 AI 法案正式生效，高风险 AI 系统将被要求满足透明度、数据治理与人类监督要求，相关企业需要尽快补齐合规能力。",
+        "The European Union has started enforcing the AI Act, creating new compliance requirements for high-risk artificial intelligence systems and governance practices.",
+        "Major accounting firms are deploying AI audit systems, automating routine work and raising concerns about workforce shifts, compliance risk, and governance."
+      ]
+    },
+    {
+      "cluster_id": "cluster_2026-05-23_03",
+      "topic": "general ai",
+      "headline": "Study warns of AI-generated content quality risks",
+      "news_ids": [
+        "news_2026-05-23_009",
+        "news_2026-05-23_012",
+        "news_2026-05-23_020"
+      ],
+      "entities": [
+        "Apple",
+        "study",
+        "warns"
+      ],
+      "heat_score": 7.6,
+      "representative_points": [
+        "四大会计师事务所推进 AI 审计系统落地，基础审计流程自动化比例显著提升，同时引发对白领岗位变化与数据治理责任的讨论。",
+        "Apple is preparing a major Siri upgrade powered by on-device large language models, aiming to improve privacy-preserving AI interactions across apps.",
+        "A new study warns that more AI-generated content online may create data quality risks for future model training and increase pressure for provenance standards."
+      ]
+    },
+    {
+      "cluster_id": "cluster_2026-05-23_04",
+      "topic": "ai chip",
+      "headline": "国内AI芯片企业完成新一轮融资",
+      "news_ids": [
+        "news_2026-05-23_002"
+      ],
+      "entities": [],
+      "heat_score": 7.1,
+      "representative_points": [
+        "一家国内 AI 芯片企业宣布完成新一轮融资，资金将用于下一代训练芯片研发和量产，显示资本市场对 AI 基础设施持续看好。"
+      ]
+    },
+    {
+      "cluster_id": "cluster_2026-05-23_05",
+      "topic": "ai healthcare",
+      "headline": "AI辅助药物研发取得新突破",
+      "news_ids": [
+        "news_2026-05-23_008"
+      ],
+      "entities": [],
+      "heat_score": 6.7,
+      "representative_points": [
+        "AI 药物研发平台帮助候选抗体药物更快进入审批流程，显示 AI 在制药场景的应用价值不断提升，相关赛道迎来更多投资机会。"
+      ]
+    },
+    {
+      "cluster_id": "cluster_2026-05-23_06",
+      "topic": "ai healthcare",
+      "headline": "AI-designed drug wins approval",
+      "news_ids": [
+        "news_2026-05-23_014"
+      ],
+      "entities": [
+        "ai",
+        "designed"
+      ],
+      "heat_score": 6.7,
+      "representative_points": [
+        "An AI-designed antibody drug has won approval, highlighting the growing role of machine learning and generative AI in pharmaceutical research and clinical acceleration."
+      ]
+    },
+    {
+      "cluster_id": "cluster_2026-05-23_07",
+      "topic": "robotics",
+      "headline": "Tesla deploys Optimus humanoid robots in manufacturing",
+      "news_ids": [
+        "news_2026-05-23_004",
+        "news_2026-05-23_016"
+      ],
+      "entities": [
+        "特斯拉",
+        "Tesla"
+      ],
+      "heat_score": 6.4,
+      "representative_points": [
+        "特斯拉宣布 Optimus 人形机器人开始在工厂场景部署，执行搬运与分拣等重复性任务，标志着具身智能进入真实应用阶段。",
+        "Tesla has started deploying Optimus humanoid robots in manufacturing operations, showing new progress in robotics, autonomous systems, and embodied AI."
+      ]
+    },
+    {
+      "cluster_id": "cluster_2026-05-23_08",
+      "topic": "foundation model",
+      "headline": "NeurIPS论文结果公布，智能体方向增长最快",
+      "news_ids": [
+        "news_2026-05-23_007"
+      ],
+      "entities": [],
+      "heat_score": 5.6,
+      "representative_points": [
+        "NeurIPS 最新统计显示，生成式 AI 与智能体方向论文增长显著，反映研究社区的热点正从单模型能力扩展到系统协作能力。"
+      ]
+    },
+    {
+      "cluster_id": "cluster_2026-05-23_09",
+      "topic": "ai agent",
+      "headline": "NeurIPS statistics show rapid growth in agent research",
+      "news_ids": [
+        "news_2026-05-23_018"
+      ],
+      "entities": [
+        "neurips",
+        "statistics"
+      ],
+      "heat_score": 5.2,
+      "representative_points": [
+        "NeurIPS statistics show that generative AI and AI agent papers are growing rapidly, reflecting changing priorities in the machine learning research community."
+      ]
+    }
+  ]
+}

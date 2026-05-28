@@ -1,0 +1,90 @@
+{
+  "date": "2026-05-28",
+  "summary": {
+    "sample_size": 20,
+    "hot_event_count": 1,
+    "cluster_count": 1
+  },
+  "highlights": [
+    "Sample AI hotspot cluster"
+  ],
+  "risk_alerts": [
+    "sample risk alert"
+  ],
+  "opportunity_alerts": [
+    "sample opportunity alert"
+  ],
+  "charts": [
+    {
+      "type": "bar",
+      "title": "热点事件热度",
+      "data": [
+        {
+          "label": "Sample AI hotspot cluster",
+          "value": 5.0
+        }
+      ]
+    },
+    {
+      "type": "bar",
+      "title": "趋势分类分布",
+      "data": [
+        {
+          "label": "技术",
+          "value": 1
+        },
+        {
+          "label": "应用",
+          "value": 1
+        },
+        {
+          "label": "政策",
+          "value": 0
+        },
+        {
+          "label": "资本",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "type": "bar",
+      "title": "高频实体 Top N",
+      "data": [
+        {
+          "label": "ai",
+          "value": 3
+        },
+        {
+          "label": "OpenAI",
+          "value": 2
+        },
+        {
+          "label": "DeepSeek",
+          "value": 2
+        },
+        {
+          "label": "Meta",
+          "value": 2
+        },
+        {
+          "label": "Sample AI Company",
+          "value": 1
+        },
+        {
+          "label": "特斯拉",
+          "value": 1
+        },
+        {
+          "label": "深度求索",
+          "value": 1
+        },
+        {
+          "label": "苹果",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "generated_at": "2026-05-28T12:30:39.527630+00:00"
+}

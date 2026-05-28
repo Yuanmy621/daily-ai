@@ -1,10 +1,13 @@
 from __future__ import annotations
 
+import json
 import re
+from pathlib import Path
 from typing import Any
 
 from src.analysis.nlp_utils import extract_keywords
 from src.models import StructuredNews
+from src.utils import LLMCallError
 
 KNOWN_ENTITIES = [
     'OpenAI', 'Google', 'DeepMind', 'Microsoft', 'Meta', 'Apple', 'Amazon', 'NVIDIA', 'Anthropic',
@@ -36,6 +39,10 @@ NEGATIVE_KEYWORDS = ['风险', '罚款', '裁员', '争议', '监管', 'ban', 'r
 RISK_KEYWORDS = ['风险', '罚款', '裁员', '争议', '监管', 'ban', 'warning', 'threat', 'compliance']
 OPPORTUNITY_KEYWORDS = ['开源', '融资', '合作', 'enterprise', 'adoption', 'integration', '增长', '获批']
 HIGH_IMPACT_KEYWORDS = ['突破', '里程碑', '首次', 'GPT-5', '融资', '法案', 'breakthrough', 'landmark', 'first', 'approval']
+VALID_TOPICS = set(TOPIC_KEYWORDS) | {'general ai'}
+VALID_EVENT_TYPES = set(EVENT_TYPE_KEYWORDS) | {'news'}
+PROMPTS_DIR = Path(__file__).resolve().parents[2] / 'prompts'
+ENHANCE_PROMPT_PATH = PROMPTS_DIR / 'extract' / 'enhance_article.txt'
 
 SENTENCE_SPLIT_RE = re.compile(r'(?<=[。！？.!?])\s+|\n+')
 ZH_CHAR_RE = re.compile(r'[一-鿿]')
@@ -165,6 +172,56 @@ def extract_evidence(sentences: list[str], entities: list[str], topic: str, limi
     return sentences[: min(limit, len(sentences))]
 
 
+def _unique_non_blank(values: list[Any], limit: int | None = None) -> list[str]:
+    seen: set[str] = set()
+    results: list[str] = []
+    for value in values:
+        text = clean_text(str(value))
+        if not text:
+            continue
+        key = text.lower()
+        if key in seen:
+            continue
+        seen.add(key)
+        results.append(text)
+        if limit is not None and len(results) >= limit:
+            break
+    return results
+
+
+def _coerce_llm_payload(payload: dict[str, Any], base: StructuredNews, raw_item: dict[str, Any]) -> StructuredNews:
+    text = f"{raw_item.get('title', '')}\n{raw_item.get('content', '')}".strip()
+    summary = clean_text(str(payload.get('summary', base.summary))) or base.summary
+    entities = _unique_non_blank(payload.get('entities', base.entities), limit=5) or base.entities
+    topic = str(payload.get('topic', base.topic)).strip()
+    if topic not in VALID_TOPICS:
+        topic = base.topic if base.topic in VALID_TOPICS else infer_topic(text)
+    event_type = str(payload.get('event_type', base.event_type)).strip()
+    if event_type not in VALID_EVENT_TYPES:
+        event_type = base.event_type if base.event_type in VALID_EVENT_TYPES else infer_event_type(text)
+    risk_signals = _unique_non_blank(payload.get('risk_signals', base.risk_signals), limit=3)
+    opportunity_signals = _unique_non_blank(payload.get('opportunity_signals', base.opportunity_signals), limit=3)
+    evidence = _unique_non_blank(payload.get('evidence', base.evidence), limit=3) or base.evidence
+
+    return StructuredNews(
+        id=base.id,
+        title=base.title,
+        source=base.source,
+        published_at=base.published_at,
+        language=base.language,
+        summary=summary,
+        entities=entities,
+        topic=topic,
+        event_type=event_type,
+        region=base.region,
+        importance_score=base.importance_score,
+        sentiment=base.sentiment,
+        risk_signals=risk_signals,
+        opportunity_signals=opportunity_signals,
+        evidence=evidence,
+    )
+
+
 def rule_based_extract(item: dict[str, Any]) -> StructuredNews:
     title = item.get('title', '')
     content = clean_text(item.get('content', ''))
@@ -208,6 +265,29 @@ def rule_based_extract(item: dict[str, Any]) -> StructuredNews:
 
 
 def llm_enhance(structured: StructuredNews, raw_item: dict[str, Any], llm_client: Any = None) -> StructuredNews:
+    # LLM 仅做增强，任何失败都必须退回规则结果，避免破坏流水线可运行性。
     if llm_client is None:
         return structured
-    return structured
+
+    prompt_template = ENHANCE_PROMPT_PATH.read_text(encoding='utf-8')
+    system_prompt = prompt_template
+    user_prompt = json.dumps(
+        {
+            'title': raw_item.get('title', ''),
+            'source': raw_item.get('source', ''),
+            'language': raw_item.get('language', structured.language),
+            'content': raw_item.get('content', ''),
+            'rule_based': structured.to_dict(),
+        },
+        ensure_ascii=False,
+        indent=2,
+    )
+    try:
+        payload = llm_client.chat_json(system_prompt, user_prompt)
+    except Exception:
+        return structured
+
+    try:
+        return _coerce_llm_payload(payload, structured, raw_item)
+    except (TypeError, ValueError):
+        return structured

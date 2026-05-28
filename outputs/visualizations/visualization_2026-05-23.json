@@ -1,0 +1,116 @@
+{
+  "date": "2026-05-23",
+  "summary": {
+    "sample_size": 20,
+    "hot_event_count": 5,
+    "cluster_count": 9
+  },
+  "highlights": [
+    "OpenAI发布GPT-5：多模态推理能力大幅提升",
+    "欧盟AI法案正式生效，企业面临合规新挑战",
+    "Study warns of AI-generated content quality risks",
+    "国内AI芯片企业完成新一轮融资",
+    "AI辅助药物研发取得新突破"
+  ],
+  "risk_alerts": [
+    "欧盟 AI 法案正式生效，高风险 AI 系统将被要求满足透明度、数据治理与人类监督要求，相关企业需要尽快补齐合规能力。",
+    "The European Union has started enforcing the AI Act, creating new compliance requirements for high-risk artificial intelligence systems and governance practices.",
+    "Major accounting firms are deploying AI audit systems, automating routine work and raising concerns about workforce shifts, compliance risk, and governance."
+  ],
+  "opportunity_alerts": [
+    "OpenAI has launched GPT-5 with stronger multimodal reasoning, a larger context window, and enterprise-ready AI agent capabilities for developers.",
+    "Meta 开源 Llama 4 系列模型，并发布配套微调与部署工具，帮助企业更低成本地采用开源大模型方案。",
+    "Meta has released Llama 4, an open source foundation model that competes with proprietary AI systems and expands the open model ecosystem for enterprise adoption.",
+    "一家国内 AI 芯片企业宣布完成新一轮融资，资金将用于下一代训练芯片研发和量产，显示资本市场对 AI 基础设施持续看好。",
+    "NeurIPS 最新统计显示，生成式 AI 与智能体方向论文增长显著，反映研究社区的热点正从单模型能力扩展到系统协作能力。"
+  ],
+  "charts": [
+    {
+      "type": "bar",
+      "title": "热点事件热度",
+      "data": [
+        {
+          "label": "OpenAI发布GPT-5：多模态推理能力大幅提升",
+          "value": 10.0
+        },
+        {
+          "label": "欧盟AI法案正式生效，企业面临合规新挑战",
+          "value": 9.3
+        },
+        {
+          "label": "Study warns of AI-generated content quality risks",
+          "value": 7.6
+        },
+        {
+          "label": "国内AI芯片企业完成新一轮融资",
+          "value": 7.1
+        },
+        {
+          "label": "AI辅助药物研发取得新突破",
+          "value": 6.7
+        }
+      ]
+    },
+    {
+      "type": "bar",
+      "title": "趋势分类分布",
+      "data": [
+        {
+          "label": "技术",
+          "value": 2
+        },
+        {
+          "label": "应用",
+          "value": 3
+        },
+        {
+          "label": "政策",
+          "value": 1
+        },
+        {
+          "label": "资本",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "type": "bar",
+      "title": "高频实体 Top N",
+      "data": [
+        {
+          "label": "ai",
+          "value": 5
+        },
+        {
+          "label": "OpenAI",
+          "value": 3
+        },
+        {
+          "label": "DeepSeek",
+          "value": 3
+        },
+        {
+          "label": "Meta",
+          "value": 3
+        },
+        {
+          "label": "深度求索",
+          "value": 2
+        },
+        {
+          "label": "苹果",
+          "value": 2
+        },
+        {
+          "label": "act",
+          "value": 2
+        },
+        {
+          "label": "firms",
+          "value": 2
+        }
+      ]
+    }
+  ],
+  "generated_at": "2026-05-28T13:32:45.313043+00:00"
+}

@@ -1,0 +1,186 @@
+{
+  "date": "2026-05-23",
+  "generated_at": "2026-05-28T13:32:45.220186+00:00",
+  "articles": [
+    {
+      "id": "raw_2026-05-23_001",
+      "title": "OpenAI发布GPT-5：多模态推理能力大幅提升",
+      "source": "机器之心",
+      "published_at": "2026-05-23T08:00:00+08:00",
+      "url": "https://www.jiqizhixin.com/articles/sample-1",
+      "language": "zh",
+      "raw_content": "OpenAI 于今日发布 GPT-5，新模型在多模态理解、复杂推理和代码生成方面取得显著突破，并支持更长上下文窗口。"
+    },
+    {
+      "id": "raw_2026-05-23_002",
+      "title": "国内AI芯片企业完成新一轮融资",
+      "source": "36氪",
+      "published_at": "2026-05-23T07:30:00+08:00",
+      "url": "https://36kr.com/p/sample-2",
+      "language": "zh",
+      "raw_content": "一家国内 AI 芯片企业宣布完成新一轮融资，资金将用于下一代训练芯片研发和量产，显示资本市场对 AI 基础设施持续看好。"
+    },
+    {
+      "id": "raw_2026-05-23_003",
+      "title": "欧盟AI法案正式生效，企业面临合规新挑战",
+      "source": "虎嗅",
+      "published_at": "2026-05-23T09:15:00+08:00",
+      "url": "https://www.huxiu.com/article/sample-3",
+      "language": "zh",
+      "raw_content": "欧盟 AI 法案正式生效，高风险 AI 系统将被要求满足透明度、数据治理与人类监督要求，相关企业需要尽快补齐合规能力。"
+    },
+    {
+      "id": "raw_2026-05-23_004",
+      "title": "特斯拉Optimus人形机器人开始工厂部署",
+      "source": "量子位",
+      "published_at": "2026-05-23T10:00:00+08:00",
+      "url": "https://www.qbitai.com/article/sample-4",
+      "language": "zh",
+      "raw_content": "特斯拉宣布 Optimus 人形机器人开始在工厂场景部署，执行搬运与分拣等重复性任务，标志着具身智能进入真实应用阶段。"
+    },
+    {
+      "id": "raw_2026-05-23_005",
+      "title": "DeepSeek发布新模型，推理成本大幅下降",
+      "source": "雷锋网",
+      "published_at": "2026-05-23T08:45:00+08:00",
+      "url": "https://www.leiphone.com/article/sample-5",
+      "language": "zh",
+      "raw_content": "深度求索发布新一代大模型，在数学推理和代码生成方面表现突出，同时显著降低推理成本，进一步加剧模型价格竞争。"
+    },
+    {
+      "id": "raw_2026-05-23_006",
+      "title": "苹果WWDC前瞻：端侧AI将深度整合进Siri",
+      "source": "极客公园",
+      "published_at": "2026-05-23T11:00:00+08:00",
+      "url": "https://www.geekpark.net/news/sample-6",
+      "language": "zh",
+      "raw_content": "据报道，苹果将在 WWDC 上发布深度整合端侧大模型的新 Siri，支持多轮对话与跨应用任务处理，主打隐私保护。"
+    },
+    {
+      "id": "raw_2026-05-23_007",
+      "title": "NeurIPS论文结果公布，智能体方向增长最快",
+      "source": "机器之心",
+      "published_at": "2026-05-23T14:00:00+08:00",
+      "url": "https://www.jiqizhixin.com/articles/sample-7",
+      "language": "zh",
+      "raw_content": "NeurIPS 最新统计显示，生成式 AI 与智能体方向论文增长显著，反映研究社区的热点正从单模型能力扩展到系统协作能力。"
+    },
+    {
+      "id": "raw_2026-05-23_008",
+      "title": "AI辅助药物研发取得新突破",
+      "source": "36氪",
+      "published_at": "2026-05-23T13:30:00+08:00",
+      "url": "https://36kr.com/p/sample-8",
+      "language": "zh",
+      "raw_content": "AI 药物研发平台帮助候选抗体药物更快进入审批流程，显示 AI 在制药场景的应用价值不断提升，相关赛道迎来更多投资机会。"
+    },
+    {
+      "id": "raw_2026-05-23_009",
+      "title": "四大会计师事务所全面引入AI审计系统",
+      "source": "虎嗅",
+      "published_at": "2026-05-23T12:00:00+08:00",
+      "url": "https://www.huxiu.com/article/sample-9",
+      "language": "zh",
+      "raw_content": "四大会计师事务所推进 AI 审计系统落地，基础审计流程自动化比例显著提升，同时引发对白领岗位变化与数据治理责任的讨论。"
+    },
+    {
+      "id": "raw_2026-05-23_010",
+      "title": "Meta开源Llama 4，开源生态再升级",
+      "source": "量子位",
+      "published_at": "2026-05-23T09:30:00+08:00",
+      "url": "https://www.qbitai.com/article/sample-10",
+      "language": "zh",
+      "raw_content": "Meta 开源 Llama 4 系列模型，并发布配套微调与部署工具，帮助企业更低成本地采用开源大模型方案。"
+    },
+    {
+      "id": "raw_2026-05-23_011",
+      "title": "OpenAI launches GPT-5 with multimodal reasoning",
+      "source": "TechCrunch AI",
+      "published_at": "2026-05-23T08:00:00+00:00",
+      "url": "https://techcrunch.com/sample-1",
+      "language": "en",
+      "raw_content": "OpenAI has launched GPT-5 with stronger multimodal reasoning, a larger context window, and enterprise-ready AI agent capabilities for developers."
+    },
+    {
+      "id": "raw_2026-05-23_012",
+      "title": "Apple prepares on-device AI upgrade for Siri",
+      "source": "The Verge AI",
+      "published_at": "2026-05-23T10:00:00+00:00",
+      "url": "https://www.theverge.com/sample-2",
+      "language": "en",
+      "raw_content": "Apple is preparing a major Siri upgrade powered by on-device large language models, aiming to improve privacy-preserving AI interactions across apps."
+    },
+    {
+      "id": "raw_2026-05-23_013",
+      "title": "EU AI Act enforcement begins",
+      "source": "VentureBeat AI",
+      "published_at": "2026-05-23T06:00:00+00:00",
+      "url": "https://venturebeat.com/sample-3",
+      "language": "en",
+      "raw_content": "The European Union has started enforcing the AI Act, creating new compliance requirements for high-risk artificial intelligence systems and governance practices."
+    },
+    {
+      "id": "raw_2026-05-23_014",
+      "title": "AI-designed drug wins approval",
+      "source": "MIT Technology Review AI",
+      "published_at": "2026-05-23T12:00:00+00:00",
+      "url": "https://www.technologyreview.com/sample-4",
+      "language": "en",
+      "raw_content": "An AI-designed antibody drug has won approval, highlighting the growing role of machine learning and generative AI in pharmaceutical research and clinical acceleration."
+    },
+    {
+      "id": "raw_2026-05-23_015",
+      "title": "Meta releases Llama 4 open source model",
+      "source": "Ars Technica AI",
+      "published_at": "2026-05-23T09:00:00+00:00",
+      "url": "https://arstechnica.com/sample-5",
+      "language": "en",
+      "raw_content": "Meta has released Llama 4, an open source foundation model that competes with proprietary AI systems and expands the open model ecosystem for enterprise adoption."
+    },
+    {
+      "id": "raw_2026-05-23_016",
+      "title": "Tesla deploys Optimus humanoid robots in manufacturing",
+      "source": "TechCrunch AI",
+      "published_at": "2026-05-23T11:30:00+00:00",
+      "url": "https://techcrunch.com/sample-6",
+      "language": "en",
+      "raw_content": "Tesla has started deploying Optimus humanoid robots in manufacturing operations, showing new progress in robotics, autonomous systems, and embodied AI."
+    },
+    {
+      "id": "raw_2026-05-23_017",
+      "title": "DeepSeek launches low-cost MoE model",
+      "source": "VentureBeat AI",
+      "published_at": "2026-05-23T07:00:00+00:00",
+      "url": "https://venturebeat.com/sample-7",
+      "language": "en",
+      "raw_content": "DeepSeek has launched a new mixture-of-experts model with much lower inference cost, increasing pressure in the global large language model market."
+    },
+    {
+      "id": "raw_2026-05-23_018",
+      "title": "NeurIPS statistics show rapid growth in agent research",
+      "source": "Ars Technica AI",
+      "published_at": "2026-05-23T15:00:00+00:00",
+      "url": "https://arstechnica.com/sample-8",
+      "language": "en",
+      "raw_content": "NeurIPS statistics show that generative AI and AI agent papers are growing rapidly, reflecting changing priorities in the machine learning research community."
+    },
+    {
+      "id": "raw_2026-05-23_019",
+      "title": "Big Four firms deploy AI audit systems",
+      "source": "ZDNet AI",
+      "published_at": "2026-05-23T13:00:00+00:00",
+      "url": "https://www.zdnet.com/sample-9",
+      "language": "en",
+      "raw_content": "Major accounting firms are deploying AI audit systems, automating routine work and raising concerns about workforce shifts, compliance risk, and governance."
+    },
+    {
+      "id": "raw_2026-05-23_020",
+      "title": "Study warns of AI-generated content quality risks",
+      "source": "The Verge AI",
+      "published_at": "2026-05-23T14:30:00+00:00",
+      "url": "https://www.theverge.com/sample-10",
+      "language": "en",
+      "raw_content": "A new study warns that more AI-generated content online may create data quality risks for future model training and increase pressure for provenance standards."
+    }
+  ]
+}

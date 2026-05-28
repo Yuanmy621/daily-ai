@@ -1,12 +1,18 @@
 from __future__ import annotations
 
 import json
+import os
 from pathlib import Path
 from typing import Any
 
 
 BASE_DIR = Path(__file__).resolve().parents[2]
 DEFAULT_CONFIG_PATH = BASE_DIR / 'config.yaml'
+LLM_ENV_MAPPING = {
+    'ANTHROPIC_BASE_URL': 'base_url',
+    'ANTHROPIC_AUTH_TOKEN': 'auth_token',
+    'ANTHROPIC_MODEL': 'model',
+}
 
 
 def _parse_scalar(value: str) -> Any:
@@ -23,14 +29,39 @@ def _parse_scalar(value: str) -> Any:
         return value.strip('"').strip("'")
 
 
+def _apply_runtime_overrides(config: dict[str, Any]) -> dict[str, Any]:
+    llm_config = dict(config.get('llm', {})) if isinstance(config.get('llm'), dict) else {}
+    for env_key, config_key in LLM_ENV_MAPPING.items():
+        value = os.getenv(env_key)
+        if value:
+            llm_config[config_key] = value
+
+    llm_config.setdefault('timeout', 30)
+    llm_config.setdefault('max_tokens', 800)
+    llm_config.setdefault('temperature', 0.2)
+    llm_config.setdefault('enhance_min_importance', 7.0)
+    llm_config['enabled'] = bool(
+        llm_config.get('base_url') and llm_config.get('auth_token') and llm_config.get('model')
+    )
+    config['llm'] = llm_config
+    return config
+
+
 def load_config(path: Path | None = None) -> dict[str, Any]:
     config_path = path or DEFAULT_CONFIG_PATH
     content = config_path.read_text(encoding='utf-8')
     try:
         import yaml  # type: ignore
     except Exception:
-        return _simple_yaml_parse(content)
-    return yaml.safe_load(content)
+        parsed = _simple_yaml_parse(content)
+    else:
+        parsed = yaml.safe_load(content) or {}
+    return _apply_runtime_overrides(parsed)
+
+
+def load_llm_config(config: dict[str, Any]) -> dict[str, Any]:
+    llm_config = config.get('llm', {})
+    return dict(llm_config) if isinstance(llm_config, dict) else {}
 
 
 def _simple_yaml_parse(content: str) -> dict[str, Any]:
