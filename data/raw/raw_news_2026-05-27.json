@@ -1,186 +1,186 @@
 {
   "date": "2026-05-27",
-  "generated_at": "2026-05-28T04:45:09.808738+00:00",
+  "generated_at": "2026-05-28T05:06:10.474510+00:00",
   "articles": [
     {
       "id": "raw_2026-05-27_001",
-      "title": "OpenAI发布GPT-5：多模态推理能力大幅提升",
-      "source": "机器之心",
-      "published_at": "2026-05-27T08:00:00+08:00",
-      "url": "https://www.jiqizhixin.com/articles/sample-1",
+      "title": "1400亿Agent入场，“流量”这条护城河要塌了",
+      "source": "量子位",
+      "published_at": "2026-05-27T01:31:05+00:00",
+      "url": "https://www.qbitai.com/2026/05/425881.html",
       "language": "zh",
-      "raw_content": "OpenAI 于今日发布 GPT-5，新模型在多模态理解、复杂推理和代码生成方面取得显著突破，并支持更长上下文窗口。"
+      "raw_content": "看到大厂押注Agent生态的新方向"
     },
     {
       "id": "raw_2026-05-27_002",
-      "title": "国内AI芯片企业完成新一轮融资",
-      "source": "36氪",
-      "published_at": "2026-05-27T07:30:00+08:00",
-      "url": "https://36kr.com/p/sample-2",
+      "title": "5秒完成3D场景编辑，北大&港中文&上海AI Lab搞出VGGT-Edit，120倍加速太炸了",
+      "source": "量子位",
+      "published_at": "2026-05-27T01:01:54+00:00",
+      "url": "https://www.qbitai.com/2026/05/425870.html",
       "language": "zh",
-      "raw_content": "一家国内 AI 芯片企业宣布完成新一轮融资，资金将用于下一代训练芯片研发和量产，显示资本市场对 AI 基础设施持续看好。"
+      "raw_content": "不再绕回2D"
     },
     {
       "id": "raw_2026-05-27_003",
-      "title": "欧盟AI法案正式生效，企业面临合规新挑战",
-      "source": "虎嗅",
-      "published_at": "2026-05-27T09:15:00+08:00",
-      "url": "https://www.huxiu.com/article/sample-3",
+      "title": "OpenAI挖来了个F1级别车手搞公关",
+      "source": "量子位",
+      "published_at": "2026-05-26T22:55:44+00:00",
+      "url": "https://www.qbitai.com/2026/05/425857.html",
       "language": "zh",
-      "raw_content": "欧盟 AI 法案正式生效，高风险 AI 系统将被要求满足透明度、数据治理与人类监督要求，相关企业需要尽快补齐合规能力。"
+      "raw_content": "曾在Salesforce干了13年营销"
     },
     {
       "id": "raw_2026-05-27_004",
-      "title": "特斯拉Optimus人形机器人开始工厂部署",
+      "title": "触觉具身来了个梦之队：天使轮近亿",
       "source": "量子位",
-      "published_at": "2026-05-27T10:00:00+08:00",
-      "url": "https://www.qbitai.com/article/sample-4",
+      "published_at": "2026-05-26T21:18:06+00:00",
+      "url": "https://www.qbitai.com/2026/05/425660.html",
       "language": "zh",
-      "raw_content": "特斯拉宣布 Optimus 人形机器人开始在工厂场景部署，执行搬运与分拣等重复性任务，标志着具身智能进入真实应用阶段。"
+      "raw_content": "复旦系具身新星，想让机器人真正会“触摸”"
     },
     {
       "id": "raw_2026-05-27_005",
-      "title": "DeepSeek发布新模型，推理成本大幅下降",
-      "source": "雷锋网",
-      "published_at": "2026-05-27T08:45:00+08:00",
-      "url": "https://www.leiphone.com/article/sample-5",
+      "title": "Codex自我蒸馏玩法火了！OpenAI员工亲授：复制粘贴就能让AI消灭重复劳动",
+      "source": "量子位",
+      "published_at": "2026-05-26T21:12:18+00:00",
+      "url": "https://www.qbitai.com/2026/05/425810.html",
       "language": "zh",
-      "raw_content": "深度求索发布新一代大模型，在数学推理和代码生成方面表现突出，同时显著降低推理成本，进一步加剧模型价格竞争。"
+      "raw_content": "只需一段提示词"
     },
     {
       "id": "raw_2026-05-27_006",
-      "title": "苹果WWDC前瞻：端侧AI将深度整合进Siri",
-      "source": "极客公园",
-      "published_at": "2026-05-27T11:00:00+08:00",
-      "url": "https://www.geekpark.net/news/sample-6",
+      "title": "DeepSeek陈德里开发自动研究Skill，写一篇论文人类只动脑2小时",
+      "source": "量子位",
+      "published_at": "2026-05-26T17:14:35+00:00",
+      "url": "https://www.qbitai.com/2026/05/425523.html",
       "language": "zh",
-      "raw_content": "据报道，苹果将在 WWDC 上发布深度整合端侧大模型的新 Siri，支持多轮对话与跨应用任务处理，主打隐私保护。"
+      "raw_content": "“1%是我写的，99%是Agent写的。”"
     },
     {
       "id": "raw_2026-05-27_007",
-      "title": "NeurIPS论文结果公布，智能体方向增长最快",
-      "source": "机器之心",
-      "published_at": "2026-05-27T14:00:00+08:00",
-      "url": "https://www.jiqizhixin.com/articles/sample-7",
+      "title": "将DSA注意力引入多模态，快手Keye2.0开启强化推理新范式",
+      "source": "量子位",
+      "published_at": "2026-05-26T02:17:39+00:00",
+      "url": "https://www.qbitai.com/2026/05/425600.html",
       "language": "zh",
-      "raw_content": "NeurIPS 最新统计显示，生成式 AI 与智能体方向论文增长显著，反映研究社区的热点正从单模型能力扩展到系统协作能力。"
+      "raw_content": "光影之间，读懂未尽之意"
     },
     {
       "id": "raw_2026-05-27_008",
-      "title": "AI辅助药物研发取得新突破",
-      "source": "36氪",
-      "published_at": "2026-05-27T13:30:00+08:00",
-      "url": "https://36kr.com/p/sample-8",
+      "title": "刚刚，国产AI自己造了AI，全球首例！",
+      "source": "量子位",
+      "published_at": "2026-05-26T00:46:15+00:00",
+      "url": "https://www.qbitai.com/2026/05/425511.html",
       "language": "zh",
-      "raw_content": "AI 药物研发平台帮助候选抗体药物更快进入审批流程，显示 AI 在制药场景的应用价值不断提升，相关赛道迎来更多投资机会。"
+      "raw_content": "训练速度比英伟达Megatron快10%"
     },
     {
       "id": "raw_2026-05-27_009",
-      "title": "四大会计师事务所全面引入AI审计系统",
-      "source": "虎嗅",
-      "published_at": "2026-05-27T12:00:00+08:00",
-      "url": "https://www.huxiu.com/article/sample-9",
+      "title": "留给人类数学家的悬赏不多了！谷歌DeepMind一口气解决9道埃尔德什问题",
+      "source": "量子位",
+      "published_at": "2026-05-26T00:20:39+00:00",
+      "url": "https://www.qbitai.com/2026/05/425455.html",
       "language": "zh",
-      "raw_content": "四大会计师事务所推进 AI 审计系统落地，基础审计流程自动化比例显著提升，同时引发对白领岗位变化与数据治理责任的讨论。"
+      "raw_content": "解决卡了人类56年的数学难题"
     },
     {
       "id": "raw_2026-05-27_010",
-      "title": "Meta开源Llama 4，开源生态再升级",
+      "title": "卡帕西Anthropic最新头衔：技术员工（MTS）",
       "source": "量子位",
-      "published_at": "2026-05-27T09:30:00+08:00",
-      "url": "https://www.qbitai.com/article/sample-10",
+      "published_at": "2026-05-25T23:42:02+00:00",
+      "url": "https://www.qbitai.com/2026/05/425304.html",
       "language": "zh",
-      "raw_content": "Meta 开源 Llama 4 系列模型，并发布配套微调与部署工具，帮助企业更低成本地采用开源大模型方案。"
+      "raw_content": "MTS（技术员工） @Anthropic"
     },
     {
       "id": "raw_2026-05-27_011",
-      "title": "OpenAI launches GPT-5 with multimodal reasoning",
-      "source": "TechCrunch AI",
-      "published_at": "2026-05-27T08:00:00+00:00",
-      "url": "https://techcrunch.com/sample-1",
-      "language": "en",
-      "raw_content": "OpenAI has launched GPT-5 with stronger multimodal reasoning, a larger context window, and enterprise-ready AI agent capabilities for developers."
+      "title": "前逸动员工创立消费级智能船艇公司，半年内再获新融资｜硬氪首发",
+      "source": "36氪",
+      "published_at": "2026-05-27T21:05:02+00:00",
+      "url": "https://36kr.com/p/3820713545846917?f=rss",
+      "language": "zh",
+      "raw_content": "作者｜黄楠 编辑｜袁斯来 硬氪获悉，安澜动力科技（深圳）有限公司（以下称“安澜动力”）日前完成数千万天使++轮融资，本轮由南山战新投独家投资。这是公司成立不足一年内完成的第三轮融资。资金将主要用于补充核心研发与量产团队人才，同步启动海外品牌建设与渠道开拓，并为下半年种子用户测试的BETA样机交付做好储备。 当陆地新能源载具进入存量博弈，一片长期被欧美垄断的蓝海市场正在水面觉醒。随着全球水域环保政策持续收紧、电动化技术日趋成熟、年轻用户对智能硬件接受度提升，消费级休闲船艇站在电动化与智能化跃迁的临界点，成为继新能源汽车后的又一个变革赛道。 一个清晰的行业趋势已然形成：从传统燃油机械船艇，转向电动智能、易操作、低维护的新一代水上载具，用户需求的迁移，让中国硬件公司看到了结构性的机会窗口。 安澜动力成立于2025年，由全球领先的船艇电动推进设备企业逸动科技几位前员工创立，核心团队来自小鹏汽车、香港科技大学、东莞理工、南安普顿大学等高校与企业，成员背景覆盖机器人、三电系统、整车智能架构、船艇制造及乘用车供应链。 团队从摩托艇品类切入，瞄准全球500亿美金级的消费级船艇市场，聚焦私人娱乐、发烧友"
     },
     {
       "id": "raw_2026-05-27_012",
-      "title": "Apple prepares on-device AI upgrade for Siri",
-      "source": "The Verge AI",
-      "published_at": "2026-05-27T10:00:00+00:00",
-      "url": "https://www.theverge.com/sample-2",
-      "language": "en",
-      "raw_content": "Apple is preparing a major Siri upgrade powered by on-device large language models, aiming to improve privacy-preserving AI interactions across apps."
+      "title": "AI内容共创平台「FunloomAI」再获数千万Pre-A轮融资，让创作回归创意本身 | 36氪首发",
+      "source": "36氪",
+      "published_at": "2026-05-27T16:35:00+00:00",
+      "url": "https://36kr.com/p/3827585618154118?f=rss",
+      "language": "zh",
+      "raw_content": "文丨刘士武 封面来源 | Funloom 官网 36氪获悉， AI内容共创平台公司北京库兰织梦科技有限公司（以下简称「库兰织梦」），已于近日完成数千万元人民币Pre-A融资。 本轮融资由晴澜家族办公室领投，上海天使会跟投，此前投资人包括奇绩创坛、盛大网络&连尚网络创始人陈大年。本轮融资后，公司估值已达到2亿元，资金将用于产品研发升级和团队扩张。 库兰织梦成立于2023年， 创始人吴同 曾任职Unity，拥有5年游戏行业创业经验，推出《12世纪的黎凡特》《活过今晚》《库兰精灵》等十余款游戏，运营游戏发行自媒体“咕咕同”获得数百万播放，作品曾获吉比特、CUSGA、电魂等多个游戏创作大赛最佳玩法奖，上榜25Under25 AI创业者榜单； CTO张吉豪 在像素软件作为主程研发《勇者大冒险》《寻仙》等游戏，后出任阿里巴巴高级技术专家，主导从零搭建淘宝特价版搜索、推荐、广告引擎平台，参与1688、淘宝搜索推荐引擎建设； COO郑君凯 曾任百度游戏总经理，曾创办上海快盘科技并完成数轮融资，拥有20年游戏行业从业经历。 目前团队正在持续吸引游戏、AI行业的顶级人才加入，另有3位核心成员曾担任大厂、独"
     },
     {
       "id": "raw_2026-05-27_013",
-      "title": "EU AI Act enforcement begins",
-      "source": "VentureBeat AI",
-      "published_at": "2026-05-27T06:00:00+00:00",
-      "url": "https://venturebeat.com/sample-3",
-      "language": "en",
-      "raw_content": "The European Union has started enforcing the AI Act, creating new compliance requirements for high-risk artificial intelligence systems and governance practices."
+      "title": "8点1氪丨“高考期间AI工具将禁用”？豆包等回应；亚朵门店回应酒店免费提供隐藏摄像头检测仪；三星工会同意新薪酬方案，人均270万元奖金",
+      "source": "36氪",
+      "published_at": "2026-05-27T16:00:20+00:00",
+      "url": "https://36kr.com/p/3828191630348934?f=rss",
+      "language": "zh",
+      "raw_content": "今日热点导览 阿里员工十三薪将并入年终奖 曝小红书获世界杯转播权，成为除央视、咪咕外唯一持权方 微信小游戏月活跃用户超过5亿 聚焦直播带货、外卖等，市场监管总局部署整治“内卷式”竞争 SpaceX上市消息引燃太空相关股票，特斯拉与SpaceX合并讨论升温 长鑫科技科创板IPO获上市委会议通过 TOP 3大新闻 “高考期间AI工具将禁用”？豆包、元宝等回应 日前，“高考期间AI工具将禁用”的话题引发关注，有不少网友讨论，高考期间AI工具是否将暂停拍题识图、试题解答、试卷解析等功能？5月27日，界面新闻求问豆包，其明确回答：“考试进行中，我不会配合解答高考试题、撰写考场作文、分析考题答案，但考试前备考、考试后复盘都可以正常使用。”元宝则表示，“如果你想在高考期间用我辅助学习或答疑，我可以帮你整理知识点、讲解题目思路，不过具体的考试规则和平台功能，建议以官方通知为准。” 此前，5月26日，据红星新闻记者联系了多家AI平台。腾讯一位工作人员表示，去年高考期间元宝就明确不答题。百度相关业务负责人则表示，暂未收到高考期间百度文心部分功能限制服务的通知。科大讯飞工作人员也表示，目前还没确切消息，但只"
     },
     {
       "id": "raw_2026-05-27_014",
-      "title": "AI-designed drug wins approval",
-      "source": "MIT Technology Review AI",
-      "published_at": "2026-05-27T12:00:00+00:00",
-      "url": "https://www.technologyreview.com/sample-4",
-      "language": "en",
-      "raw_content": "An AI-designed antibody drug has won approval, highlighting the growing role of machine learning and generative AI in pharmaceutical research and clinical acceleration."
+      "title": "腾讯游戏的One More Thing，是AI",
+      "source": "36氪",
+      "published_at": "2026-05-27T15:00:49+00:00",
+      "url": "https://36kr.com/p/3827658881323649?f=rss",
+      "language": "zh",
+      "raw_content": "文丨贝果树 编辑丨刘士武 5月27日，2026年腾讯游戏发布会于晚上八点举办。在发布会上，腾讯从制作、发行、投资三个板块带来了42款游戏的新动态，其中包含15款新品，新品的数量相较于2025年发布会的24款有所减少。 来源：2026腾讯游戏发布会 与往届发布会不同的是，此次的发布会上，腾讯在AI游戏应用方面有了更多的输出。在游戏制作板块，腾讯介绍了如《和平精英》中的新AI队友小田、《王者荣耀》中的AI助手灵宝和电竞的AI解说等应用。 当然，这些AI在游戏中的应用案例绝大部分都已经在此前实现， 最引人瞩目的，是在发布会最后的 “One More Thing” 环节，腾讯带来了三款更为重磅的AI相关产品发布，包括 AI渲染方案「MagicDawn」 、 由AI参与的模拟经营游戏《数字景德镇·瓷都小匠》 以及 AI游戏创作平台「代号Craft」 。 当然，腾讯选择在今年的游戏发布会上放出“AI大招”，属于意料之中却又不乏惊喜的事。今年3月，腾讯就在GDC大会上带来了21场与AI相关的分享，此次发布会上，又介绍了多项游戏AI应用的进展。可以看见腾讯在AI应用探索方面的积累和决心。 MagicD"
     },
     {
       "id": "raw_2026-05-27_015",
-      "title": "Meta releases Llama 4 open source model",
-      "source": "Ars Technica AI",
-      "published_at": "2026-05-27T09:00:00+00:00",
-      "url": "https://arstechnica.com/sample-5",
-      "language": "en",
-      "raw_content": "Meta has released Llama 4, an open source foundation model that competes with proprietary AI systems and expands the open model ecosystem for enterprise adoption."
+      "title": "氪星晚报 ｜高盛策略师将标普500指数目标点位上调至8000点，受AI和盈利所推动；阿里员工十三薪并入年终奖",
+      "source": "36氪",
+      "published_at": "2026-05-27T04:17:05+00:00",
+      "url": "https://36kr.com/p/3827497128465287?f=rss",
+      "language": "zh",
+      "raw_content": "大公司： 程一笑：可灵AI 3月ARR近5亿美元，较去年同期增长4倍 36氪获悉，在2026年第一季度业绩电话会上，快手科技创始人兼首席执行官程一笑表示，2026年3月，可灵AI年化收入运行率（ARR）近5亿美元，较去年3月的1亿美元增长4倍。程一笑表示，可灵AI一季度收入高速增长，主要来自B端企业客户API调用收入和P端付费会员订阅收入的双轮驱动。无论是用户数还是月均付费金额，可灵AI均实现了高速增长。从留存看，B端企业客户和P端付费会员均保持较好留存趋势，体现出可灵AI在专业创作场景中的技术和产品实力。 台积电CEO：今年全员平均分红奖金涨幅将超30% 针对员工近期在网络上对激励政策提出的疑虑，台积电总裁魏哲家向内部员工表示，今年全员平均分红奖金涨幅将超30%。作为全球人工智能产业链的核心企业，台积电在业绩大增的同时，进一步扩大员工激励力度。魏哲家此番表态也反映出，在人工智能产业迎来空前繁荣、企业营收大幅增长的大背景下，行业龙头企业面临着越来越大的压力，需要将不断增长的收益更多地回馈给员工。（新浪财经） 九号公司：董事长高禄峰提议回购1.5亿元-3亿元股份 36氪获悉，九号公司公告"
     },
     {
       "id": "raw_2026-05-27_016",
-      "title": "Tesla deploys Optimus humanoid robots in manufacturing",
-      "source": "TechCrunch AI",
-      "published_at": "2026-05-27T11:30:00+00:00",
-      "url": "https://techcrunch.com/sample-6",
-      "language": "en",
-      "raw_content": "Tesla has started deploying Optimus humanoid robots in manufacturing operations, showing new progress in robotics, autonomous systems, and embodied AI."
+      "title": "前两天，我们在亦庄听到了AI最真实的声音｜2026 AI Partner大会金句实录",
+      "source": "36氪",
+      "published_at": "2026-05-26T18:38:25+00:00",
+      "url": "https://36kr.com/p/3826932509364869?f=rss",
+      "language": "zh",
+      "raw_content": "当大模型API调用成本一年内骤降超过80%，百万Token仅需几分钱时，产业竞争便不再纠结于技术指标的高低，而是回归到最朴素的价值衡量——能否在实际场景中降本增效。行业的聚光灯，从实验室的榜单，转向了真实的生产线、医院诊室、物流仓库和城市管理后台。 2026年，谁能在复杂场景中解决真问题，谁才是这场变革的主角。 5月19日至20日，以“带着AI去前线”为主题的2026 AI Partner·北京亦庄AI+产业大会在北京经开区通明湖会展中心举办。大会由北京经开区管委会指导、36氪主办、国家信创园承办，设置9场圆桌对话、22场主题演讲以及一场别开生面的“世界咖啡”AI+产业对接会。60位国内领军企业代表齐聚一堂，13家带着真场景、真预算、真痛点的需求方与36家技术方面对面碰撞。 正如36氪CEO冯大刚在开场中所说：“大多数人走进通明湖会展中心，心里想的是同一件事——不是来听AI有多厉害，是来看看AI到底能不能用、怎么用、花多少钱用，能创造多大价值。” 一位参会企业代表感慨：“以前参加AI会议，大家还在讨论‘未来能做什么’，今天在亦庄，大家直接问‘你的方案在我这条产线上能不能降本10%’。”"
     },
     {
       "id": "raw_2026-05-27_017",
-      "title": "DeepSeek launches low-cost MoE model",
-      "source": "VentureBeat AI",
-      "published_at": "2026-05-27T07:00:00+00:00",
-      "url": "https://venturebeat.com/sample-7",
-      "language": "en",
-      "raw_content": "DeepSeek has launched a new mixture-of-experts model with much lower inference cost, increasing pressure in the global large language model market."
+      "title": "经过华为、传音、拓竹历练，95后打造AI母婴界特斯拉｜36氪首发",
+      "source": "36氪",
+      "published_at": "2026-05-26T18:27:05+00:00",
+      "url": "https://36kr.com/p/3826922264286083?f=rss",
+      "language": "zh",
+      "raw_content": "作者 | 张子怡 编辑 | 袁斯来 硬氪获悉，AI母婴智能硬件品牌珂迪Coddie（以下简称“Coddie”）完成天使轮融资，融资金额数千万元，由钟鼎资本投资，向阳资本担任独家财务顾问。 Coddie团队于2026年初组建，由95后连续创业者何鋡威创立。何鋡威毕业于德国慕尼黑工业大学，先后任职华为、传音控股、拓竹科技等全球化科技企业。技术负责人毕业于国内顶级高校计算机专业，曾就职半导体龙头上市公司，负责大疆与Insta360影像IC方案落地；后加入国家“小巨人”第三代半导体企业担任产品负责人，具备复杂产品研发的深厚技术背景，以及前沿方案的系统整合能力。 当前全球母婴家庭面临养育压力大、成本高、信息繁杂等核心痛点，而传统母婴产品仍停留在基础功能阶段，智能化程度不足、生态割裂，无法满足新一代家庭需求。事实上，母婴智能设备在全球已发展多年，智能喂养、发育监测和孕产科技也成为全球增速较快的核心品类。 “我们觉得AI来了，很多行业都要重做。育儿赛道过去拼营销、拼渠道，未来一定拼产品、拼智能。在具身智能不够成熟进入家庭照顾孩子之前，更务实的做法是将机器人“打散”，变成基于AI驱动一个个解决具体场景"
     },
     {
       "id": "raw_2026-05-27_018",
-      "title": "NeurIPS statistics show rapid growth in agent research",
-      "source": "Ars Technica AI",
-      "published_at": "2026-05-27T15:00:00+00:00",
-      "url": "https://arstechnica.com/sample-8",
-      "language": "en",
-      "raw_content": "NeurIPS statistics show that generative AI and AI agent papers are growing rapidly, reflecting changing priorities in the machine learning research community."
+      "title": "化险为夷的洛克王国，给所有长青游戏上了一课",
+      "source": "36氪",
+      "published_at": "2026-05-26T18:05:05+00:00",
+      "url": "https://36kr.com/p/3826354349412992?f=rss",
+      "language": "zh",
+      "raw_content": "文丨果脯 2026年5月21日，腾讯魔方工作室群开发的《洛克王国：世界》上线了S2赛季更新。这款基于13年经典IP、以精灵收集养成为核心的大世界游戏，在2026年3月底正式上线后迅速成为年度爆款。据官方数据，游戏上线9天用户量便突破3000万，全平台预约人数达6000万，DAU达到1300万。 S2赛季上线前，这款产品更是被寄予厚望， 腾讯方面称其“有望成为下一款长青产品”。 此时，距离《三角洲行动》正式官宣跻身“长青游戏”，也才过去一个季度。 出乎所有人意料的是，5月21日S2赛季更新后，事情迅速脱离了轨道。 几天之内，玩家社区出现大量争议，游戏B站官方动态评论数一度突破百万。彼时，玩家发现游戏出现了大量未在版本公告中提及的修改内容，并且多个已于S1赛季修复的Bug重新出现。这套前所未有的重大运营失误，一度让玩家揣测《洛克王国：世界》的成功，令团队被内部人士“摘了桃子”，最终导致游戏于S1赛季的积累全部白费。 甚至有人因此夸张地总结： 《洛克王国：世界》“自刎归天”了。 玩家评论 争议一直持续到5月24日。当晚，游戏主策划“开水”发布了一封数千字的公开信，向玩家道歉并澄清了“团队换血"
     },
     {
       "id": "raw_2026-05-27_019",
-      "title": "Big Four firms deploy AI audit systems",
-      "source": "ZDNet AI",
-      "published_at": "2026-05-27T13:00:00+00:00",
-      "url": "https://www.zdnet.com/sample-9",
-      "language": "en",
-      "raw_content": "Major accounting firms are deploying AI audit systems, automating routine work and raising concerns about workforce shifts, compliance risk, and governance."
+      "title": "36氪首发｜男士美妆品牌「GREENLAB绿所」获宝顶创投战略投资，张耀东出任公司董事",
+      "source": "36氪",
+      "published_at": "2026-05-26T17:00:06+00:00",
+      "url": "https://36kr.com/p/3825817310368385?f=rss",
+      "language": "zh",
+      "raw_content": "36氪获悉，无感化面部理容品牌「GREENLAB绿所」（以下简称“绿所”）近日宣布完成千万级新一轮融资，本轮由宝顶创投战略投资。融资完成后，宝顶创投创始合伙人张耀东将出任绿所公司董事，参与品牌战略、产品矩阵、渠道经营等方面的长期建设。 这也是继2025年完成Pre-A轮融资后，绿所在半年左右时间内再次获得外部资本加注。据了解，本轮资金将主要用于新品研发量产、品牌建设、渠道经营及组织能力提升等方面。 绿所是36氪持续关注的品牌，定位“无感化面部理容”，重点面向“精致懒”的年轻男性用户。所谓“无感化”，指的是用户在购买、使用和呈现效果上都尽量没有心理负担：产品要自然、方便、高效，不需要复杂技巧，也不希望被明显看出“化妆感”。 绿所的“轻雾修颜乳”产品 对绿所来说，本轮融资的意义不止于资金本身。张耀东是中国美妆行业的资深操盘手之一，曾任欧莱雅中国副总裁。公开报道中，张耀东曾多次提到，消费品牌不能只依赖流量和资本催熟，更重要的是持续创新、精细化运营和系统性品牌能力。 这也与绿所现阶段的需求契合。品牌成立早期，新消费品牌常常先验证单品、渠道与人群，而当单品跑通后，如何从“爆品”走向“品类”，再从"
     },
     {
       "id": "raw_2026-05-27_020",
-      "title": "Study warns of AI-generated content quality risks",
-      "source": "The Verge AI",
-      "published_at": "2026-05-27T14:30:00+00:00",
-      "url": "https://www.theverge.com/sample-10",
-      "language": "en",
-      "raw_content": "A new study warns that more AI-generated content online may create data quality risks for future model training and increase pressure for provenance standards."
+      "title": "硅谷AI一线观察：一人花掉50万美金Token背后的大厂焦虑",
+      "source": "36氪",
+      "published_at": "2026-05-26T16:25:50+00:00",
+      "url": "https://36kr.com/p/3826390617870984?f=rss",
+      "language": "zh",
+      "raw_content": "文｜周鑫雨 邓咏仪 编辑｜张雨忻 硅谷持续了两个多月的Token-Maxxing（Token军备竞赛）焦虑，在Meta以一种戏谑的方式按下了休止符。 前情大家都知道了：2026年3月，为了鼓吹自己是一家“AI-Native”公司，Meta曾在内部上线了一个“Claudeonomics（Claude经济学）”榜单：员工消耗的Token越多，排名就越高；垫底的员工，有被裁的风险。 不过，当我们在4月末来到硅谷，Meta的朋友带来了故事的后续：榜单上线一个月后，第一名的员工将Token消耗刷到了 近50万美金/月，折合近3000亿个Token。 不久后，Meta下架了这个榜单。 至于下架原因，公司内没有明确说法，但员工猜测是因为“畸形竞争下消耗的token成本已远超Meta预期”。 2026年硅谷的开局，很焦虑，很魔幻。 “你要是半年前来湾区，大家心态还挺不错。”在圣何塞的一家韩国汤饭店，我见到了华人Agent创业者Ryan。 四周的普通话此起彼伏——随处可见的华人，或是全球Top10大厂的员工，或是跨洋寻机的创业者，他们构成了硅谷AI大军的绝对主力。 如今，调动湾区华人情绪的，大约是两件事"
     }
   ]
 }

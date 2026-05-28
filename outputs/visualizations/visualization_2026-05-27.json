@@ -1,7 +1,7 @@
 {
   "date": "2026-05-27",
   "summary": {
-    "sample_size": 20,
+    "sample_size": 18,
     "hot_event_count": 1,
     "cluster_count": 1
   },
@@ -52,7 +52,11 @@
       "title": "高频实体 Top N",
       "data": [
         {
-          "label": "ai",
+          "label": "AI",
+          "value": 3
+        },
+        {
+          "label": "腾讯",
           "value": 3
         },
         {
@@ -60,11 +64,11 @@
           "value": 2
         },
         {
-          "label": "DeepSeek",
+          "label": "百度",
           "value": 2
         },
         {
-          "label": "Meta",
+          "label": "特斯拉",
           "value": 2
         },
         {
@@ -72,19 +76,15 @@
           "value": 1
         },
         {
-          "label": "特斯拉",
+          "label": "Agent",
           "value": 1
         },
         {
-          "label": "深度求索",
-          "value": 1
-        },
-        {
-          "label": "苹果",
+          "label": "1400",
           "value": 1
         }
       ]
     }
   ],
-  "generated_at": "2026-05-28T04:45:09.868890+00:00"
+  "generated_at": "2026-05-28T05:06:11.030702+00:00"
 }
