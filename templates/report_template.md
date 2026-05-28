@@ -1,21 +1,35 @@
 # {{ title }}
 
+## 摘要
+
+{{ summary }}
+
 ## 今日热点
 
-[占位]
+{{ hot_topics }}
 
 ## 重点事件分析
 
-[占位]
+{{ event_analysis }}
+
+## 图表导读
+
+{{ chart_guide }}
 
 ## 趋势观察
 
-[占位]
+{{ trend_observation }}
 
 ## 风险与机会
 
-[占位]
+### 风险提示
+
+{{ risk_items }}
+
+### 机会提示
+
+{{ opportunity_items }}
 
 ## 数据来源与方法
 
-[占位]
+{{ methodology }}
